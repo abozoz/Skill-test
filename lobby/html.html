@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Skils-Exame</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div">
+        <select class="select" id="sel">
+            <option value="false">إختر المادة</option>
+            <option value="exams/arabic.html" id="a"> اللغة العربية</option>
+            <option value="exams/english.html" id="e">اللغة الانحليزية</option>
+            <option value="exams/computer.html" id="c"> مهارات الحاسوب</option>
+        </select>
+        <input type="button" value="إذهب" class="button" onclick="go()"
+            style="position: absolute;left:54%; top:1%; padding:1%; font-size:24px; width:auto; margin:0; opacity:100%;">
+        </div>
+
+        <div>
+            <div class="imgs">
+                <img src="Photo/arabic.jpg" style="width: 100%; height: auto;">
+                <input value="إختبر" type="button" class="button" onclick="window.location.href='exams/arabic.html'">
+                <div class="photo-title">إختبار اللغة العربية</div>
+                <p>
+                    "فيما يلي 10 أسئلة تم تصميمها لاختبار معرفتك في اللغة العربية، حيث يتوفر لك في كل سؤال أربعة خيارات
+                    متنوعة. كل سؤال يحمل معه علامتين، ويتعين عليك الحصول على نصف العلامة لتحقيق النجاح في هذا الاختبار.
+                    حظاً موفقاً!"
+                </p>
+            </div>
+
+            <div class="imgs">
+                <img src="Photo/english.jpg" style="width: 100%; height: auto; ">
+                <input value="إختبر" type="button" class="button" onclick="window.location.href='exams/english.html'">
+                <div class="photo-title">إختبار اللغة الأنجليزية</div>
+                <p>
+                    "فيما يلي 10 أسئلة تم تصميمها لاختبار معرفتك في اللغة الأنجليزية، حيث يتوفر لك في كل سؤال أربعة
+                    خيارات متنوعة. كل سؤال يحمل معه علامتين، ويتعين عليك الحصول على نصف العلامة لتحقيق النجاح في هذا
+                    الاختبار. حظاً موفقاً!"
+                </p>
+            </div>
+
+            <div class="imgs">
+                <div clas=".container ">
+                    <img src="Photo/computer.jpg"
+                        style="width: 100%; height: auto; padding-top: 1.5%; padding-bottom: 1.5%;">
+                    <input value="إختبر" type="button" class="button" onclick="window.location.href='exams/computer.html'">
+                    <div class="photo-title" style="margin-left:  -25px; ">إختبار مهارات الحاسوب</div>
+                    <p>
+                        "فيما يلي 10 أسئلة تم تصميمها لاختبار معرفتك في الحاسوب، حيث يتوفر لك في كل سؤال أربعة خيارات
+                        متنوعة. كل سؤال يحمل معه علامتين، ويتعين عليك الحصول على نصف العلامة لتحقيق النجاح في هذا
+                        الاختبار. حظاً موفقاً!"
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function go() {
+                n = document.getElementById('sel')
+                v = n.value
+                if (v) window.location.href = v;
+            }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+body {
+    background-color: #dfe4f9;
+    font-family: 'GE Dinar One', Geneva, Tahoma, sans-serif;
+}
+
+.select {
+    font-family: 'GE Dinar One', Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 1%;
+    background: #221ef4 75%;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+* {
+    float: left;
+    padding-top: 20px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.photo-title {
+    text-align: center;
+    direction: rtl;
+    position: relative;
+    top: 20px;
+    font-size: 24px;
+    border: 5px solid #221ef4;
+    border-radius: 5px;
+    padding:10px 30px 10px 30px;
+    box-shadow:inset 10px black;
+}
+
+p {
+    margin: 3% 5% 3% 5%;
+    font-size: 20px;
+    direction: rtl;
+}
+
+.imgs {
+    width: 29%;
+    padding: 5px;
+    border: 5px solid #221ef4;
+    margin: 10px;
+    border-radius: 50px;
+    position: relative;
+    left: 90px;
+}
+
+.button {
+    border-radius: 8px;
+    background-color: #221ef4;
+    color: #FFFFFF;
+    text-align:center;
+    font-size: 28px;
+    font-family: 'GE Dinar One', Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 130px;
+    margin-top: 20px;
+    margin-right: 70px;
+    border: 0;
+    position: relative;
+    left: 5%;
+}
